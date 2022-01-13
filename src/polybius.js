@@ -48,7 +48,7 @@ const polybiusModule = (function () {
       //loops through input array
       for (let letter in input) {
 
-        //skips any charachters that are not letters
+        //skips any characters that are not letters
         if (!(input[letter] == " ")) test++;
       }
 
@@ -63,7 +63,7 @@ const polybiusModule = (function () {
           i -= 1; 
         } else {
 
-          //addresses all actual charachters and decodes them
+          //addresses all actual characters and decodes them
           let newNum = `${input[i]}${input[i + 1]}`;
                     result += alpha[newNum];
         }
