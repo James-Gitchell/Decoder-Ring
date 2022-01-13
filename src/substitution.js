@@ -28,7 +28,7 @@ const substitutionModule = (function () {
         result += inputLetter;
       }
 
-      //loops through original alphabet arra for comparison
+      //loops through original alphabet array for comparison
       for (let j = 0; j < orgAlpha.length; j++) {
         
         if (encode) {
